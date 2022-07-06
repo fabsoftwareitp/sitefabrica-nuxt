@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       theme: 'dracula'
     }
   },
-  app: {
-    baseURL: '/site/',
+  router: {
+    base: '/site/',
   },
 })
