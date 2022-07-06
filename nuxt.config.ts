@@ -20,5 +20,8 @@ export default defineNuxtConfig({
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'dracula'
     }
-  }
+  },
+  app: {
+    baseURL: '/site/',
+  },
 })
