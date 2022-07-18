@@ -3,8 +3,7 @@
     <Html lang="pt-br" />
     <Meta property="og:image" content="/cover.jpg" />
     <Meta name="twitter:card" content="summary_large_image" />
-  
-    <div class="dark:text-gray-200">
+    <div class="text-white">
       <NuxtPage />
     </div>
   </div>
