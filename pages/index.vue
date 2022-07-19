@@ -1,8 +1,6 @@
 <script setup>
-const { path } = useRoute()
-const navigationTree = await fetchContentNavigation(queryContent(path))
+const navigationTree = await fetchContentNavigation(queryContent('/membros'))
 const links = navigationTree[0].children
-
 </script>
 
 <template>
@@ -50,8 +48,12 @@ const links = navigationTree[0].children
       <h2 class="text-center text-black font-bold text-3xl mt-28">
         Membros Ativos
       </h2>
+      <div>
+        <h2>pra debugar</h2>
+        <pre style="color:black">{{ links }}</pre>
+      </div>
       <div v-for="item in links" class="flex justify-center flex-wrap">
-        <div class="flex flex-col items-center justify-center">
+        <div v-if="item.status === 'ativo'" class="flex flex-col items-center justify-center">
           <img :src="item.img" alt="Imagem {{ item.name }}" class="w-[150px] rounded-full">
           <h3 class="text-center text-black text-2xl font-semibold">
             {{ item.name }}
