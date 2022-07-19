@@ -3,7 +3,6 @@ const navigationMembros = await fetchContentNavigation(queryContent('/membros'))
 const navigationProjetos = await fetchContentNavigation(queryContent('/projetos'))
 const membros = navigationMembros[0].children
 const projetos = navigationProjetos[0].children
-
 </script>
 
 <template>
