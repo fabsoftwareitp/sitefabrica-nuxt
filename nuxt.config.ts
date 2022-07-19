@@ -14,14 +14,11 @@ export default defineNuxtConfig({
   // https://content.nuxtjs.org
   content: {
     navigation: {
-      fields: ['navTitle']
+      fields: ['navTitle', 'name', 'img', 'status', 'way', 'link']
     },
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'dracula'
     }
-  },
-  router: {
-    base: '/site/',
-  },
+  }
 })

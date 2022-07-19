@@ -1,0 +1,13 @@
+---
+extends: _layouts.members
+section: content
+
+status: desativado
+name: "Laura Naomi"
+img: https://avatars.githubusercontent.com/u/47746453?v=4
+way: /membros/laura-naomi
+---
+
+# Laura Naomi Seto
+
+![lauranaomiseto]()
