@@ -2,12 +2,12 @@
 extends: _layouts.projetos
 section: content
 
-status: ativo
+status: desativado
 name: "Site Especialização em Desenvolvimento Web"
 dataInicio: 2019-10-14
 link: http://ic.itp.ifsp.edu.br/espweb/
-img: ./assets/images/fs_cinza.png
-
+img: public/fs_cinza.png
+way: /projetos/site-espweb
 ---
 
 # Site Especialização em Desenvolvimento Web

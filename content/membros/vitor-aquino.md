@@ -5,6 +5,7 @@ section: content
 status: ativo
 name: "Vitor Gabriel de Aquino"
 img: https://avatars.githubusercontent.com/u/95290697?v=4
+way: /membros/vitor-aquino
 ---
 
 # Vitor Gabriel de Aquino

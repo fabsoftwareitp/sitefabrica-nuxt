@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   // https://content.nuxtjs.org
   content: {
     navigation: {
-      fields: ['navTitle', 'name', 'img', 'status', 'teste']
+      fields: ['navTitle', 'name', 'img', 'status', 'way', 'link']
     },
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme

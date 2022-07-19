@@ -2,10 +2,11 @@
 extends: _layouts.projetos
 section: content
 
-status: ativo
+status: desativado
 name: "Show de Física"
 link: "https://showdefisica.itp.ifsp.edu.br/"
-img: ./assets/images/show_fisica.jpg
+img: public/show_fisica.jpg
+way: /projetos/show_fisica
 ---
 # Show de Física
 

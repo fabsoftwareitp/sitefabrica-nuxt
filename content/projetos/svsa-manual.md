@@ -5,7 +5,8 @@ section: content
 status: ativo
 name: "Manual do Usuário do SVSA"
 link: https://svsa.itp.ifsp.edu.br/
-img: ./assets/images/logo_svsa.png
+img: public/logo_svsa.png
+way: /projetos/svsa-manual
 ---
 # Manual do Usuário do SVSA
 

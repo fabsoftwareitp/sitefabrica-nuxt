@@ -5,6 +5,7 @@ section: content
 status: ativo
 name: "André Augusto"
 img: https://avatars.githubusercontent.com/u/77406727?v=4
+way: /membros/andre-augusto
 ---
 
 # André Augusto

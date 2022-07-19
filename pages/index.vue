@@ -1,7 +1,8 @@
 <script setup>
-const { path } = useRoute()
-const navigationTree = await fetchContentNavigation(queryContent(path))
-const links = navigationTree[0].children
+const navigationMembros = await fetchContentNavigation(queryContent('/membros'))
+const navigationProjetos = await fetchContentNavigation(queryContent('/projetos'))
+const membros = navigationMembros[0].children
+const projetos = navigationProjetos[0].children
 
 </script>
 
@@ -47,47 +48,63 @@ const links = navigationTree[0].children
       </article>
     </div>
     <div>
-      <h2 class="text-center text-black font-bold text-3xl mt-28">
+      <h2 class="text-center text-black font-bold text-3xl mt-28 mb-10">
         Membros Ativos
       </h2>
-      <div v-for="item in links" class="flex justify-center flex-wrap">
-        <div class="flex flex-col items-center justify-center">
-          <img :src="item.img" alt="Imagem {{ item.name }}" class="w-[150px] rounded-full">
-          <h3 class="text-center text-black text-2xl font-semibold">
-            {{ item.name }}
-          </h3>
+      <div class="flex justify-center flex-wrap max-w-[1000px] m-auto">
+        <div v-for="membro in membros">
+          <div v-if="membro.status === 'ativo'" class="flex items-center flex-col justify-center m-[10px] w-[270px] h-[200px]">
+            <img :src="membro.img" alt="Imagem {{ item.name }}" class="w-[150px] rounded-full">
+            <NuxtLink :to="membro.way">
+              <h3 class="text-center text-black text-2xl font-semibold">
+                {{ membro.name }}
+              </h3>
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>
     <div>
-      <h2 class="text-center text-black font-bold text-3xl mt-6">
+      <h2 class="text-center text-black font-bold text-3xl mt-6 mb-10">
         Projetos Em Andamento
       </h2>
+      <div class="flex justify-center flex-wrap max-w-[1000px] m-auto">
+        <div v-for="projeto in projetos">
+          <div v-if="projeto.status === 'ativo'" class="flex items-center flex-col justify-center m-[25px] w-[450px] h-[250px]">
+            <img :src="projeto.img" :alt="projeto.name" class="h-[200px]">
+            <NuxtLink :to="projeto.way">
+              <h3 class="text-center text-black text-2xl font-semibold">
+                {{ projeto.name }}
+              </h3>
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
       <h2 class="text-center text-black font-bold text-3xl mt-6">
         Depoimentos
       </h2>
       <section class="flex justify-around mt-10 flex-wrap w-full">
-        <div class="mb-10 shadow-2xl bg-black rounded-xl">
+        <div class="mb-10 shadow-2xl bg-[#0200B3] rounded-xl">
           <iframe class="w-[40vw] h-[40vh]" src="https://www.youtube.com/embed/B1bys3rAuL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
           <h3 class="text-center text-[#FD624C] font-bold text-2xl p-1.5">
             Rafael Damiam
           </h3>
         </div>
-        <div class="mb-10 shadow-2xl bg-black rounded-xl">
+        <div class="mb-10 shadow-2xl bg-[#0200B3] rounded-xl">
           <iframe class="w-[40vw] h-[40vh]" src="https://www.youtube.com/embed/sDcW1keRIDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
           <h3 class="text-center text-[#FD624C] font-bold text-2xl p-1.5">
             Vinicius Zevarex
           </h3>
         </div>
-        <div class="mb-10 shadow-2xl bg-black rounded-xl">
+        <div class="mb-10 shadow-2xl bg-[#0200B3] rounded-xl">
           <iframe class="w-[40vw] h-[40vh]" src="https://www.youtube.com/embed/D054k8JNOm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
           <h3 class="text-center text-[#FD624C] font-bold text-2xl p-1.5">
             João Morais
           </h3>
         </div>
-        <div class="mb-10 shadow-2xl bg-black rounded-xl">
+        <div class="mb-10 shadow-2xl bg-[#0200B3] rounded-xl">
           <iframe class="w-[40vw] h-[40vh]" src="https://www.youtube.com/embed/aw3LTiobEYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
           <h3 class="text-center text-[#FD624C] font-bold text-2xl p-1.5">
             Lucas Cavalherie

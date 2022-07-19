@@ -5,6 +5,7 @@ section: content
 status: ativo
 name: "Ana Julia Trindade"
 img: https://avatars.githubusercontent.com/u/104458133?v=4
+way: /membros/ana-julia
 ---
 
 # Ana Julia Trindade
