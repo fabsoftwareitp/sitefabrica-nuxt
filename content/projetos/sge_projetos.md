@@ -5,12 +5,12 @@ section: content
 status: ativo
 name: "SGE - Sistema de Gerenciamento de Eventos"
 link: https://ic.itp.ifsp.edu.br/sgeIFSP/
-img: ../public/logo_sge_dark.png
+img: ../../public/logo_sge_dark.png
 way: /projetos/sge_projetos
 ---
 # SGE - Sistema de Gerenciamento de Eventos
 
-![SGE](../public/logo_sge_dark.png)
+![SGE](../../public/logo_sge_dark.png)
 
 [https://ic.itp.ifsp.edu.br/sgeIFSP/](https://ic.itp.ifsp.edu.br/sgeIFSP/)
 
