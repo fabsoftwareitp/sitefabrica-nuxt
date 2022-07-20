@@ -3,10 +3,14 @@ const navigationMembros = await fetchContentNavigation(queryContent('/membros'))
 const navigationProjetos = await fetchContentNavigation(queryContent('/projetos'))
 const membros = navigationMembros[0].children
 const projetos = navigationProjetos[0].children
+
 </script>
 
 <template>
   <div>
+    <head>
+      <Title>Home</Title>
+    </head>
     <div id="imagem-fundo">
       <Navbar />
       <div class="mt-12 mx-auto h-5/6">
@@ -52,14 +56,14 @@ const projetos = navigationProjetos[0].children
       </h2>
       <div class="flex justify-center flex-wrap max-w-[1000px] m-auto">
         <div v-for="membro in membros">
-          <div v-if="membro.status === 'ativo'" class="flex items-center flex-col justify-center m-[10px] w-[270px] h-[200px]">
-            <img :src="membro.img" alt="Imagem {{ item.name }}" class="w-[150px] rounded-full">
-            <NuxtLink :to="membro.way">
-              <h3 class="text-center text-black text-2xl font-semibold">
+          <NuxtLink :to="membro.way">
+            <div v-if="membro.status === 'ativo'" class="flex text-center text-black text-2xl font-semibold items-center flex-col justify-center m-[10px] w-[270px] h-[200px] border shadow-md shadow-black rounded-lg hover:underline hover:text-[#FD624C]">
+              <img :src="membro.img" alt="Imagem {{ item.name }}" class="w-[150px] rounded-full">
+              <h3>
                 {{ membro.name }}
               </h3>
-            </NuxtLink>
-          </div>
+            </div>
+          </NuxtLink>
         </div>
       </div>
     </div>

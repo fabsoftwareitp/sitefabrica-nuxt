@@ -5,12 +5,12 @@ section: content
 status: desativado
 name: "Show de Física"
 link: "https://showdefisica.itp.ifsp.edu.br/"
-img: public/show_fisica.jpg
+img: ../public/show_fisica.jpg
 way: /projetos/show_fisica
 ---
 # Show de Física
 
-![Show de Física](./assets/images/show_fisica.jpg)
+![Show de Física](../public/show_fisica.jpg)
 
 [https://showdefisica.itp.ifsp.edu.br/](https://showdefisica.itp.ifsp.edu.br/)
 
