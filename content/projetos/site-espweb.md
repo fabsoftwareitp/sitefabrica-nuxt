@@ -6,13 +6,13 @@ status: desativado
 name: "Site Especialização em Desenvolvimento Web"
 dataInicio: 2019-10-14
 link: http://ic.itp.ifsp.edu.br/espweb/
-img: ../public/fs_cinza.png
+img: ../../public/fs_cinza.png
 way: /projetos/site-espweb
 ---
 
 # Site Especialização em Desenvolvimento Web
 
-![FS-cinza](../public/fs_cinza.png)
+![FS-cinza](../../public/fs_cinza.png)
 
 [http://ic.itp.ifsp.edu.br/espweb/](http://ic.itp.ifsp.edu.br/espweb/)
 
