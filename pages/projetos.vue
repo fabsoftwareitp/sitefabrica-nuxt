@@ -6,6 +6,9 @@ const links = navigationTree[0].children
 </script>
 <template>
   <main>
+    <head>
+      <Title>Projetos</Title>
+    </head>
     <header class="bg-black mb-10">
       <Navbar />
     </header>
