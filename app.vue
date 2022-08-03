@@ -6,7 +6,7 @@
     <div class="text-white">
       <NuxtPage />
       <footer class="bg-black pt-6 pb-6">
-        <h3 class="text-center text-[#FD624C] font-bold">Copyright © 2020 Fábrica de softwares ITP - IFSP - Todos os direitos reservados</h3>
+        <h3 class="text-center text-[#FD624C] font-bold">Copyright © 2020 - 2022 Fábrica de softwares ITP - IFSP - Todos os direitos reservados</h3>
       </footer>
     </div>
   </div>
