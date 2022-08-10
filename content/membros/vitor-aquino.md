@@ -5,12 +5,11 @@ section: content
 status: ativo
 name: "Vitor Gabriel de Aquino"
 img: https://avatars.githubusercontent.com/u/95290697?v=4
-way: /membros/vitor-aquino
 ---
 
 # Vitor Gabriel de Aquino
 
-![Vitor-G-Aquino]()
+![Vitor-G-Aquino](https://avatars.githubusercontent.com/u/95290697?v=4)
 
 Técnico em Informática [em formação] pelo IFSP, membro da Fábrica de Softwares (2022 - indeterminado), período ao qual participa/participou no desenvolvimento dos projetos: [site da Fábrica], com enfoque no uso das linguagens: [PHP e SQL].
 
@@ -30,3 +29,10 @@ Atuando como FullStack no projeto DevOps, tendo como função principal providen
 - 31/05 - 0,5 Horas - Mudança do local do manual para a pasta "_docs"
 
 total: **13,5 horas**
+
+#### Junho 
+
+- 08/06 - 3 Horas - Produção do Relatório do Mês de Maio (:P)
+- 28/06 - 1 Hora - Ajustes finais no manual do WebServer
+
+total: **4 horas**

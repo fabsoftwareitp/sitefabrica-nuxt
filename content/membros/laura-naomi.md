@@ -10,4 +10,4 @@ way: /membros/laura-naomi
 
 # Laura Naomi Seto
 
-![lauranaomiseto]()
+![lauranaomiseto](https://avatars.githubusercontent.com/u/47746453?v=4)

@@ -10,4 +10,4 @@ way: /membros/joao-morais
 
 # João Victor Ferreira de Morais
 
-![joaomorais1f]()
+![joaomorais1f](https://avatars.githubusercontent.com/u/41636783?v=4)
