@@ -1,6 +1,5 @@
 <template>
   <div class="">
-  <h1>this one</h1>
     <!-- Fetch and display the Markdown document from current path -->
     <ContentDoc class="">
       <!-- Slot if document is not found -->

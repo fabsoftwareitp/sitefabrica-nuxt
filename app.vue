@@ -21,4 +21,46 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+h1 {
+  color: #FD624C;
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+img {
+  margin: auto;
+  width: 300px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+h2 {
+  color: #FD624C;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+h4 {
+  color: #FD624C;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2em;
+  width: 1200px;
+  margin: auto;  
+}
+
+li {
+  width: 450px;
+  margin: auto;
+  font-size: 1.2em;
+}
 </style>
