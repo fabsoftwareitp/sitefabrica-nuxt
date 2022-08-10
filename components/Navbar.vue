@@ -19,10 +19,6 @@
         </ContentNavigation>
       </div>
     </div>
-    <!-- Social icons & Color Mode -->
-    <div class="space-x-3 text-gray-200 transition hidden ">
-      <a href="https://github.com/fabsoftwareitp" title="GitHub" class="hover:text-gray-700"><Icon name="fa-brands:github" /></a>
-      <ColorModeSwitch class="hover:text-gray-700" />
-    </div>
+    
   </div>
 </template>
