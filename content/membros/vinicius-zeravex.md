@@ -10,4 +10,4 @@ way: /membros/vinicius-zeravex
 
 # Vinicius Alexandre de Oliveira Zevarex
 
-![ViniciusZevarex]()
+![ViniciusZevarex](https://avatars.githubusercontent.com/u/41579743?v=4)

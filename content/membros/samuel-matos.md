@@ -10,4 +10,4 @@ way: /membros/samuel-matos
 
 # Samuel Facchetti de Matos
 
-![SamuelFacchetti]()
+![SamuelFacchetti](https://avatars.githubusercontent.com/u/47745205?v=4)

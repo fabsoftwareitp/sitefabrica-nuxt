@@ -10,4 +10,4 @@ way: /membros/maria-senger
 
 # Maria Eduarda Senger
 
- ![Mah-Senger]()
+ ![Mah-Senger](https://avatars.githubusercontent.com/u/77407513?v=4)

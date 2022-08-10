@@ -11,4 +11,4 @@ way: /membros/rafael-santos
 # Rafael Leandro Damiam dos Santos
 
 
-![rafaeldamiam]()
+![rafaeldamiam](https://avatars.githubusercontent.com/u/41579736?v=4)

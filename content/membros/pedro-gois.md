@@ -10,4 +10,4 @@ way: /membros/pedro-gois
 
 # Pedro Henrique Morais de Gois
 
-![PedroGois]()
+![PedroGois](https://avatars.githubusercontent.com/u/41579818?v=4)
